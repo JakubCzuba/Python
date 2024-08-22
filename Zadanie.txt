@@ -1,0 +1,44 @@
+### Krok po kroku: Jak wykonać zadanie "Gra liczby i kolory" w Tkinter
+
+#### 1. **Zrozumienie podstaw Pythona**
+   - **Zmienne i typy danych**: Upewnij się, że rozumiesz, jak tworzyć i używać zmiennych. Zrozumienie podstawowych typów danych, takich jak liczby całkowite (int) i łańcuchy znaków (str), jest kluczowe.
+   - **Funkcje**: Naucz się, jak definiować funkcje, które wykonują określone zadania, oraz jak przekazywać do nich argumenty i zwracać wartości.
+   - **Instrukcje warunkowe (if/else)**: Opanuj używanie instrukcji warunkowych do podejmowania decyzji w programie.
+   - **Pętle**: Zrozum, jak działają pętle (np. while, for) i jak mogą być używane do powtarzania działań.
+
+#### 2. **Nauka Tkinter**
+   - **Instalacja i konfiguracja**: Upewnij się, że masz zainstalowany Python i Tkinter. Tkinter jest zazwyczaj dołączony do standardowej instalacji Pythona.
+   - **Tworzenie okna**: Naucz się, jak utworzyć główne okno aplikacji za pomocą Tkinter (`tk.Tk()`).
+   - **Dodawanie widżetów**: Opanuj tworzenie i umieszczanie widżetów, takich jak etykiety (`Label`), pola tekstowe (`Entry`), przyciski (`Button`), i listy rozwijane (`OptionMenu`).
+   - **Obsługa zdarzeń**: Zrozum, jak powiązać funkcje z przyciskami za pomocą parametrów `command` w Tkinter.
+
+#### 3. **Planowanie struktury programu**
+   - **Zmienna losowa**: Stwórz zmienną, która będzie przechowywać losową liczbę z zakresu od 1 do 10, oraz zmienną, która będzie przechowywać losowy kolor.
+   - **Interfejs użytkownika**: Zaprojektuj interfejs użytkownika, który pozwoli na wprowadzenie liczby, wybranie koloru z listy, oraz przycisk do sprawdzenia wyniku.
+   - **Funkcja sprawdzająca**: Napisz funkcję, która sprawdzi, czy wpisana liczba i wybrany kolor są zgodne z wylosowanymi wartościami.
+   - **Pętla sprawdzania**: Dodaj mechanizm, który pozwoli użytkownikowi wielokrotnie próbować, dopóki nie odgadnie poprawnie lub nie zamknie aplikacji.
+
+#### 4. **Implementacja programu**
+   - **Tworzenie okna**: Rozpocznij od stworzenia głównego okna aplikacji.
+   - **Dodawanie widżetów**: Dodaj etykiety, pola tekstowe, listy rozwijane i przycisk do interfejsu użytkownika.
+   - **Definiowanie funkcji**: Stwórz funkcje odpowiedzialne za sprawdzanie poprawności wpisanej liczby i koloru oraz za aktualizowanie wyników.
+   - **Pętla zdarzeń**: Na końcu dodaj `root.mainloop()`, aby uruchomić pętlę główną aplikacji.
+
+#### 5. **Testowanie i debugowanie**
+   - **Testowanie funkcji**: Sprawdź, czy funkcje działają poprawnie, a interfejs reaguje na wpisy użytkownika zgodnie z oczekiwaniami.
+   - **Obsługa błędów**: Upewnij się, że program obsługuje błędy, takie jak wpisanie nieprawidłowych danych (np. tekstu zamiast liczby).
+   - **Optymalizacja interfejsu**: Popraw wygląd i działanie interfejsu, aby był intuicyjny i przyjazny dla użytkownika.
+
+#### 6. **Podsumowanie nauki**
+   - **Tkinter**: Opanujesz podstawy tworzenia interfejsów graficznych za pomocą Tkinter.
+   - **Programowanie w Pythonie**: Wzmocnisz swoje umiejętności w zakresie używania zmiennych, funkcji, pętli oraz instrukcji warunkowych.
+   - **Zarządzanie projektem**: Zrozumiesz, jak zaplanować i zorganizować większy projekt programistyczny.
+
+### Co musisz się nauczyć?
+
+1. **Podstawy Pythona**: Zrozumienie zmiennych, typów danych, funkcji, pętli i instrukcji warunkowych.
+2. **Tkinter**: Jak tworzyć okna, widżety i obsługiwać zdarzenia.
+3. **Planowanie i organizacja**: Jak zaplanować strukturę programu i zrealizować go krok po kroku.
+4. **Testowanie**: Umiejętność testowania i debugowania swojego kodu, aby zapewnić, że działa zgodnie z oczekiwaniami.
+
+Po opanowaniu tych umiejętności będziesz w stanie samodzielnie zrealizować zadanie "Gra liczby i kolory" oraz tworzyć inne proste aplikacje w Tkinter.
