@@ -5,30 +5,33 @@ root.geometry("800x500")
 root.title("First py")
 
 def get_data():
-    data = myentry.get()
-    Label2.config(text= "Twoje dane to: " + data)
+    dataint = myentry.get()
+    LabelLiczba.config(text= "Twoje odpowiedź to: " + dataint)
 
 
 
 frametop = tk.Frame(root, bg="linen")
-frametop.pack(side="top", fill="x")
+frametop.place(relwidth=1, relheight=0.2)
 
-Label = tk.Label(frametop, text = "Wprowadź dane poniżej", font=("Arial", 20), bg="linen")
-Label.pack(padx=20, pady=20) 
+Labelhead = tk.Label(frametop, text = "Wprowadź dane", font=("Arial", 20), bg="linen") 
+Labelhead.place(relx=0.45, rely=0.4)
 
 
 
 frameleft = tk.Frame(root, bg="powder blue")
-frameleft.pack(side="left", fill="y")
+frameleft.place(relx=0, rely=0.2, relwidth=0.33, relheight=1)
 
-button_get_data = tk.Button(root, text="Zatwierdź", command=get_data, bg="linen")
-button_get_data.pack(padx=15, pady=15)
+labelguess = tk.Label(frameleft, bg="powder blue", text="Zgadnij liczbę:")
+labelguess.grid(row=0, column=0, pady=10, padx=5)
 
 myentry = tk.Entry(frameleft)
-myentry.pack(padx=10, pady=10)
+myentry.grid(row=0, column=1, padx=10, pady=10)
 
-Label2 = tk.Label(frameleft, bg="powder blue")
-Label2.pack()
+button_get_data = tk.Button(frameleft, text="Zatwierdź", command=get_data, bg="linen")
+button_get_data.grid(row=1, column=0, padx=10, pady=10)
+
+LabelLiczba = tk.Label(frameleft, bg="powder blue")
+LabelLiczba.grid(row=1, column=1)
 
 
 
